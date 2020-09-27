@@ -1,0 +1,73 @@
+
+# Level 1
+# Single block direct hit
+
+START_LEVEL
+level_name:Hello Kitty
+ball_velocities:160,5 180,5 200,5
+background:color(pink)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/helloKitty_block_definitions.txt
+blocks_start_x:100
+blocks_start_y:80
+row_height:25
+num_blocks:1
+START_BLOCKS
+------------BB--------
+----BBB----BRRB-BBB---
+---BWWWBBBBRRRRBWWWB--
+---BWWWWWWBRRRBBBWWB--
+---BWWWWWWBRRBRRRBBB--
+----BWWWWWWBBBRRRBRRB-
+---BWWWWWWWWWWBBBRRRB-
+---BWWWWWWWWWWWWBRRB--
+---BWWWWWWWWWWWWWBB---
+--BWWWWBWWWWWWBWWWWB--
+BBBBWWWBWWWWWWBWWWBBBB
+---BBWWWWWYYWWWWWBB---
+-BBBWWWWWWWWWWWWWWBBB-
+----BWWWWWWWWWWWWB----
+-----BBWWWWWWWWBB-----
+-------BBBBBBBB-------
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Mickey Mouse
+ball_velocities:160,5 200,5
+background:color(blue)
+paddle_speed:10
+paddle_width:550
+block_definitions:definitions/mickeyMouse_block_definitions.txt
+blocks_start_x:100
+blocks_start_y:40
+row_height:25
+num_blocks:15
+START_BLOCKS
+--------BBBB-----------
+-------BBBBBB----------
+------BBBBBBBB---------
+------BBBBBBBB---------
+------BBBBBBBB---------
+-------BBBBBB----------
+--------BBBBBBBB-------
+--BBB----BBBYYYBB------
+-BBBBBB-BBBBYYYYBB-----
+BBBBBBBBBBBBYYYYBYB----
+BBBBBBBBBBBBYYYYYYB----
+BBBBBBBBBBBBYYYWWYWB-BB
+-BBBBBBBBYYBBYYWWYWBBBB
+--BBBB-BYYYYYYYWBYBYBB-
+-------BYYYYYYYWBYYYYB-
+-------BYYYYBYYYYYYYYB-
+--------BYYYBYYYYYYYYB-
+---------BYYYBYYYYYYB--
+----------BBYYBYYYBB---
+------------BYYBBB-----
+-------------BBBB------
+END_BLOCKS
+END_LEVEL
